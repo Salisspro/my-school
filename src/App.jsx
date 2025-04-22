@@ -5,7 +5,7 @@ import User from "./components/User"
 
 function App() {
   return (
-    <div className="dark:bg-slate-950 min-h-screen">
+    <div className="bg-slate-900 min-h-screen">
       <Page />
       <User/>
       <Hero/>

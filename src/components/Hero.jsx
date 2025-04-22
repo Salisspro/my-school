@@ -10,11 +10,15 @@ function Hero() {
             <p className='text-slate-500'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
             <button className='bg-teal-700 text-slate-100 p-2 rounded-md'>Read More</button>
          </div>
-         <div className='flex flex-col md:flex-row space-x-5 mt-5 md:mt-0'>
+
+
+         <div className='flex flex-col md:flex-row space-x-5 mt-10 md:mt-0 ml-5'>
             <div className='flex flex-col space-y-5'>
                <h1 className='text-2xl font-bold text-slate-800'>New</h1>
                <img src={IMG1} alt="" className='w-full md:w-[300px] h-[200px] object-cover' />
                <p className='text-slate-500'>Reviving Retro PCs: How the Next Generation of PC Gaming</p>
+               <p className='text-slate-500'>What happens when old PCs are revived?</p>
+               <button className='bg-teal-700 text-slate-100 p-2 rounded-md'>Read More</button>
                
 
             </div>
