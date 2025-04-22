@@ -18,7 +18,7 @@ function Page() {
             <div>
               <img src={Close} alt="" />
 
-              <div className='min-h-screen dark:bg-slate-950 absolute right-0 left-0 top-0 bottom-0 z-10'>
+              <div className='min-h-screen dark:bg-red-950 absolute right-0 left-0 top-0 bottom-0 z-10'>
                 <div className="p-10 my-20 space-y-5 text-2xl font-extralight  ">
 
                   <p className={para}>Register</p>

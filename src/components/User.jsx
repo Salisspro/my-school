@@ -9,6 +9,7 @@ export default function User() {
    const [readMore, setReadMore] = useState(true)
    return (
       <div className="m-5 mt-10 text-slate-300 text-[18px] md:flex items-center justify-center md:space-x-10">
+         
          <div>
 
             <h1 className="text-teal-700 mb-5 text-5xl font-medium  text-center">Join developer communities</h1>
