@@ -28,11 +28,11 @@ export default function User() {
 
          </div>
          <div className='border border-teal-600 my-15 flex items-center justify-center flex-col lg:grid lg:grid-cols-2 p-5 rounded-2xl md:w-1/2'>
-            <div className='h-full '>
-               <img className='rounded' src={IMG} alt="" />
+            <div className='h-full bg-teal-950 '>
+               <img className='rounded bg-teal-500 z-10 opacity-30 md:rounded-b-2xl' src={IMG} alt="" />
 
             </div>
-            <p className=''>Hi, i am Salisu Yushau Sulaiman
+            <p className='md:ml-2'>Hi, i am Salisu Yushau Sulaiman
                <p onClick={() => setReadMore(!readMore)} className=''>
                   {
                      readMore ? <p className='text-teal-600 underline underline-offset-3 cursor-pointer animate-pulse'>Read More</p> : <p>a skilled React js Developer with a passion for building scalable and efficient mobile application.</p>
