@@ -13,7 +13,7 @@ function Hero() {
 
 
    return (
-      <div className='p-5 bg-slate-100'>
+      <div className='p-5 bg-slate-100 '>
          <div className='grid grid-cols-1 space-y-5'>
             <h1 className='text-4xl font-bold text-slate-800'>The Bright Future of Web 3.0?</h1>
             <p className='text-slate-500'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.{readMore1 && 'But is it really fulfilling its promise?'}</p>
@@ -21,10 +21,10 @@ function Hero() {
          </div>
 
 
-         <div className='md:grid md:grid-cols-3 gap-5 mt-10'>
+         <div className='md:grid md:grid-cols-3 gap-5 mt-10 text-slate-600'>
             <div className='mb-15'>
 
-               <img src={IMG1} alt="" className='rounded w-full md:w-[300px] h-[200px] object-cover' />
+               <img src={IMG1} alt="" className='rounded w-full md:w-[300px] h-[200px] object-cover ' />
                <div>
                   <p>
                      Reviving Retro PCs: How the Next Generation of PC Gaming
@@ -33,7 +33,7 @@ function Hero() {
                      {readMore1 ?
                         <div className='flex items-center gap-1'>
                            <p className='underline underline-offset-3 '>Read More</p>
-                           <img className='w-8 mt-1' src={ICON} alt="" />
+                           <img className='w-8 mt-1 animate-pulse' src={ICON} alt="" />
                         </div>
                         : <p>What happens when old PCs are revived?</p>}
                   </div>
@@ -54,7 +54,7 @@ function Hero() {
                      {readMore2 ?
                         <div className='flex items-center gap-1'>
                            <p className='underline underline-offset-3 '>Read More</p>
-                           <img className='w-8 mt-1 ' src={ICON} alt="" />
+                           <img className='w-8 mt-1 animate-pulse' src={ICON} alt="" />
                         </div>
                         : <p>Is AI gonna take over the world?</p>}
                   </div>
@@ -74,7 +74,7 @@ function Hero() {
                      {readMore3 ?
                         <div className='flex items-center gap-1'>
                            <p className='underline underline-offset-3 '>Read More</p>
-                           <img className='w-8 mt-1' src={ICON} alt="" />
+                           <img className='w-8 mt-1 animate-pulse' src={ICON} alt="" />
                         </div>
                         : <p>How gamers are changing the world? </p>}
                   </div>

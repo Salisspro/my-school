@@ -11,10 +11,10 @@ function Page() {
   return (
     <div className="cursor-pointer text-slate-200  bg-slate-100 p-2">
       <div className='flex items-center justify-between'>
-        <h1 className='text-slate-500 text-sm p-3 capitalize font-bold font-mono '> <span className='text-5xl text-teal-700 font-serif'>s</span >alisspro tech</h1>
+        <h1 className='text-slate-500 text-sm p-3 capitalize font-bold font-mono '> <span className='text-4xl text-teal-700 font-serif'>s</span >alisspro tech</h1>
         <div onClick={() => setModal(!modal)}>
 
-          {modal ? <img className='md:invisible' src={Menu} alt="" /> :
+          {modal ? <img className='md:invisible mr-4' src={Menu} alt="" /> :
             <div>
               <img src={Close} alt="" />
 
