@@ -29,7 +29,7 @@ export default function User() {
          </div>
          <div className='border border-teal-600 my-15 flex items-center justify-center flex-col lg:grid lg:grid-cols-2 p-5 rounded-2xl md:w-1/2'>
          <div className='h-full '>
-            <img className='p-10 rounded' src={IMG} alt="" />
+            <img className='rounded' src={IMG} alt="" />
 
          </div>
             <p className=''>Hi, i am Salisu Yushau Sulaiman
