@@ -9,7 +9,7 @@ export default function User() {
    const [readMore, setReadMore] = useState(true)
    return (
       <div className="m-5 mt-10 text-slate-300 text-[18px] md:flex items-center justify-center md:space-x-10">
-         
+
          <div>
 
             <h1 className="text-teal-700 mb-5 text-5xl font-medium  text-center">Join developer communities</h1>
@@ -19,8 +19,8 @@ export default function User() {
 
             <p className='my-5 text-[17px]'>If we do not code, we are just passegers in someone elses car. But when we code we drive the future.</p>
 
-            <div className='mt-2 flex items-center rounded underline underline-offset-4 text-teal-500 gap-1'>
-               <p className='text-[16px]'>
+            <div className='-mt-5  flex items-center rounded underline underline-offset-4 text-teal-500 gap-1'>
+               <p className='text-[16px] '>
                   Get Started
                </p>
                <img className='w-9 animate-pulse' src={ICON} alt="" />
@@ -28,10 +28,10 @@ export default function User() {
 
          </div>
          <div className='border border-teal-600 my-15 flex items-center justify-center flex-col lg:grid lg:grid-cols-2 p-5 rounded-2xl md:w-1/2'>
-         <div className='h-full '>
-            <img className='rounded' src={IMG} alt="" />
+            <div className='h-full '>
+               <img className='rounded' src={IMG} alt="" />
 
-         </div>
+            </div>
             <p className=''>Hi, i am Salisu Yushau Sulaiman
                <p onClick={() => setReadMore(!readMore)} className=''>
                   {
